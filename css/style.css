@@ -1,0 +1,51 @@
+:root {
+    --custom-background-color: #F9FFF8;
+    --custom-text-light-color: #F5FFE6;
+    --custom-cta-color: #004E35;
+    --custom-decorative-green-color: #004E35;
+    --custom-text-dark-color: #052610;
+    --custom-footer-color:#03180A;
+
+    --text-primary: var(--custom-text-dark-color);
+    --text-secondary: var(--custom-text-light-color);
+
+    --custom-decorative-light-green-color: #ABCD48;
+    --custom-decorative-yellow-color: #FDDB00;
+    --custom-decorative-red-color: #C63131;
+    --custom-decorative-orange-color: #FAC202;
+}
+
+body{
+    background-color: var(--custom-background-color);
+}
+
+/* NAVBAR */
+.navbar a{
+    color: var(--custom-text-dark-color);
+}
+.nav-item img{
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+@media only screen and (min-width: 768px) {
+    .compcentralemenu{
+        border: solid 2px;
+        border-radius: 40px;
+        border-color: var(--custom-decorative-green-color) !important;
+        padding: 2px 4px 2px 4px;
+    }
+
+    .compcentralemenu .active{
+        background-color: var(--custom-decorative-green-color);
+        border-radius: 40px !important;
+
+    }
+    .compcentralemenu a:hover{
+        background-color: var(--custom-decorative-green-color);
+        border-radius: 40px !important;
+
+    }
+}
+
+/* FINE NAVBAR */
