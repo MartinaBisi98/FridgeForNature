@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 :root {
     --custom-background-color: #F9FFF8;
     --custom-text-light-color: #F5FFE6;
@@ -17,34 +18,48 @@
 
 body{
     background-color: var(--custom-background-color);
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* NAVBAR */
 .navbar a{
     color: var(--custom-text-dark-color);
+    font-weight: bold;
+    overflow:hidden;
+}
+.compcentralemenu .active{
+    text-decoration: underline;
 }
 .nav-item img{
     margin-right: 10px;
     margin-top: -5px;
 }
 
+.nav-link:not(.active) img{
+    display: none;
+}
+
+
 @media only screen and (min-width: 768px) {
-    .compcentralemenu{
+    .compcentralemenu a{
         border: solid 2px;
-        border-radius: 40px;
-        border-color: var(--custom-decorative-green-color) !important;
-        padding: 2px 4px 2px 4px;
+        border-radius: 40px ;
+        border-color: var(--custom-decorative-green-color);
+        overflow: hidden;
     }
 
     .compcentralemenu .active{
         background-color: var(--custom-decorative-green-color);
-        border-radius: 40px !important;
-
+        color: var(--custom-text-light-color) !important;
+        text-decoration: none;
     }
-    .compcentralemenu a:hover{
+    .compcentralemenu a:hover:not(.active){
         background-color: var(--custom-decorative-green-color);
-        border-radius: 40px !important;
-
+        background-size: cover;
+        color: var(--custom-text-light-color);
+    }
+    .compcentralemenu a:hover:not(.active) img{
+        display: inline;
     }
 }
 
