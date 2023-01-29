@@ -60,6 +60,7 @@ body{
     }
     .compcentralemenu a:hover:not(.active) img{
         display: inline;
+        /* SISTEMARE TRANSIZIONE */
     }
 }
 
