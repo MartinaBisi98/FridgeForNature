@@ -21,7 +21,7 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
-/* NAVBAR */
+/* NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR*/
 .navbar a{
     color: var(--custom-text-dark-color);
     font-weight: bold;
@@ -35,15 +35,32 @@ body{
     margin-left: 2px;
     margin-top: -5px;
 }
-
 .nav-link:not(.active) img{
     transition: width 500ms ease-in-out, margin-right 500ms ease-in-out, margin-left 500ms ease-in-out;
     width: 0;
     margin-right: 0;
     margin-left: 0;
 }
-
-
+.navbar-toggler {
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+.navbar-toggler[aria-expanded="false"] {
+    transform: rotate(0);
+    transition: transform 500ms, background-color 800ms;
+    border-radius: 50px;
+    padding: 10px;
+}
+.navbar-toggler[aria-expanded="true"] {
+    transform: rotate(90deg);
+    transition: transform 500ms, background-color 800ms;
+    background-color: var(--custom-decorative-green-color);
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 24px;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(249,255,248, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 @media only screen and (min-width: 992px) {
     .compcentralemenu a{
         border: solid 2px;
@@ -51,7 +68,6 @@ body{
         border-color: var(--custom-decorative-green-color);
         overflow: hidden;
     }
-
     .compcentralemenu .active{
         background-color: var(--custom-decorative-green-color);
         color: var(--custom-text-light-color) !important;
@@ -79,11 +95,23 @@ body{
         width: 20px;
         margin-right: 10px;
     }
-
-    .container-fluid{
-        float: right;
+    #firstNavBarItem{
+        margin-top: 5%;
+    }
+    .nav-link{
+        padding-left: 10%;
+        color: var(--custom-text-light-color) !important;
+    }
+    .navbar-collapse{
+        background-color: var(--custom-decorative-green-color);
+        border-radius: 30px;
+        margin-left: 60%;
+    }
+    #userIcon{
+        content: url("/img/navbar/userIconLight.png");
+        width: 25px;
+        height: 25px;
+        margin-bottom: 5%;
     }
 }
-
-
-/* FINE NAVBAR */
+/* FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR */
