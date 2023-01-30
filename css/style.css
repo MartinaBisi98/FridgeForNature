@@ -32,18 +32,22 @@ body{
 }
 .nav-item img{
     margin-right: 10px;
+    margin-left: 2px;
     margin-top: -5px;
 }
 
 .nav-link:not(.active) img{
-    display: none;
+    transition: width 500ms ease-in-out, margin-right 500ms ease-in-out, margin-left 500ms ease-in-out;
+    width: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
     .compcentralemenu a{
         border: solid 2px;
-        border-radius: 40px ;
+        border-radius: 30px;
         border-color: var(--custom-decorative-green-color);
         overflow: hidden;
     }
@@ -59,9 +63,27 @@ body{
         color: var(--custom-text-light-color);
     }
     .compcentralemenu a:hover:not(.active) img{
-        display: inline;
-        /* SISTEMARE TRANSIZIONE */
+        transition: width 500ms ease-in-out, margin-right 500ms ease-in-out, margin-left 500ms ease-in-out;
+        width: 20px;
+        margin-right: 10px;
+        margin-left: 2px;
     }
 }
+@media only screen and (max-width: 992px) {
+    .compcentralemenu a:hover:not(.active) {
+        text-decoration: underline;
+        transition: text-decoration 1s ease;;
+    }
+    .compcentralemenu a:hover:not(.active) img{
+        transition: width 500ms ease-in-out, margin-right 500ms ease-in-out;
+        width: 20px;
+        margin-right: 10px;
+    }
+
+    .container-fluid{
+        float: right;
+    }
+}
+
 
 /* FINE NAVBAR */
