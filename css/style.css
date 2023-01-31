@@ -172,4 +172,15 @@ body{
     height: 100%;
     width: 100%;
 }
+
+.carousel-prev-icon, .carousel-next-icon {
+    width: 6vw;
+    height: 6vw;
+    transition: width 200ms ease-in-out, height 200ms ease-in-out;
+}
+.carousel-prev-icon:hover, .carousel-next-icon:hover{
+    width: 6.5vw;
+    height: 6.5vw;
+    transition: width 200ms ease-in-out, height 200ms ease-in-out;
+}
 /* FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA*/
