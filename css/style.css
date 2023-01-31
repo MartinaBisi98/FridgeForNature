@@ -150,7 +150,8 @@ body{
 }
 .card-title{
     margin-bottom: 6vw;
-    margin-right: 2%;
+    margin-right: 3%;
+    font-size: 2.7vw;
 }
 .card-footer {
     background-color: unset!important;
@@ -162,7 +163,7 @@ body{
 }
 .card-footer p {
     font-size: 1.4vw;
-    margin-bottom: 0;
+    margin-bottom: 3%;
 }
 .card-img-overlay {
     display: flex;
