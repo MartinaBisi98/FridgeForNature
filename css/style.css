@@ -18,17 +18,21 @@
 
 h1{
     font-weight: bold;
-    font-size: 72px;
+    font-size: clamp(35px, 5vw,  72px);
+}
+h2{
+    font-weight: 600;
+    font-size: clamp(28px, 3.5vw,  56px);
 }
 h3{
     font-weight: 600;
-    font-size: 36px;
+    font-size: clamp(21px, 2.5vw,  36px);
 }
 body{
     background-color: var(--custom-background-color);
     font-family: 'Quicksand', sans-serif;
     color: var(--custom-text-dark-color);
-    font-size: 20px;
+    font-size: clamp(10px, 1.5vw,  22px);
     font-weight: normal;
 }
 
@@ -144,6 +148,9 @@ body{
 #adottaTitle{
     padding-top: 50px
 }
+.primoDiv{
+    margin-bottom: 50px;
+}
 .card{
     border: 0;
     background-color: var(--custom-background-color);
@@ -162,8 +169,16 @@ body{
     padding: 0 2%;
 }
 .card-footer p {
-    font-size: 1.4vw;
-    margin-bottom: 3%;
+    margin-bottom: 4%;
+    transition: background 500ms ease-in-out;
+}
+@media only screen and (max-width: 768px){
+    .card-footer p{
+        margin-bottom: 1%;
+        background: rgba(249, 255, 248, 0.5);
+        transition: background 500ms ease-in-out;
+        border-radius: 3px;
+    }
 }
 .card-img-overlay {
     display: flex;
@@ -183,4 +198,42 @@ body{
     height: 6.5vw;
     transition: width 200ms ease-in-out, height 200ms ease-in-out;
 }
+
+.secondoDiv{
+    background-color: var(--custom-decorative-green-color);
+    color: var(--custom-text-light-color);
+    margin-top: 12%;
+}
+#adottaH2Community{
+    padding-top: 30px;
+}
 /* FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA*/
+
+
+/* LASCIARE ALLA FINE --- LASCIARE ALLA FINE --- LASCIARE ALLA FINE*/
+.erbaDecorativa{
+    width: 100%;
+    position: absolute;
+    margin-top: -7.5%;
+}
+/*
+@media only screen and (min-width: 1500px) {
+    .erbaDecorativa{
+        margin-top: -7%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .erbaDecorativa{
+        margin-top: -9.5%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .erbaDecorativa{
+        margin-top: -11%;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .erbaDecorativa {
+        margin-top: -13%;
+    }
+}*/
