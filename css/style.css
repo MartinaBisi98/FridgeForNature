@@ -85,5 +85,109 @@ body{
     }
 }
 
-
 /* FINE NAVBAR */
+
+
+
+
+
+/* CARD */
+.img-wrapper  {
+    max-width: 100%;
+    height: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+img{
+    max-width:100%;
+    max-height: 100%;
+}
+
+
+@media screen and (min-width: 576px){
+    .carousel-inner{
+        display:flex;
+    }
+    .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    }
+    .img-wrapper  {
+        height:23vw;
+    }
+}
+
+.carousel-inner{
+    padding:1em;
+}
+.card {
+    margin: 0 .5em;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .5;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover{
+    opacity: .8;
+
+}
+
+
+/*CARD */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    background-color: var(--custom-footer-color);
+}
+
+footer p, a, h6 {
+    color: var(--custom-text-light-color);
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: var(--custom-text-light-color);
+}
+
+.immaginicard:hover {
+    border: 5px solid;
+    border-color: var(--custom-decorative-yellow-color);
+
+
+}
+
+.corpocard {
+    background-color: var(--custom-background-color);
+
+}
+
+/* FINE FOOTER */
