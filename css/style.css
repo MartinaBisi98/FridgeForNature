@@ -32,9 +32,13 @@ body{
     background-color: var(--custom-background-color);
     font-family: 'Quicksand', sans-serif;
     color: var(--custom-text-dark-color);
-    font-size: clamp(10px, 1.5vw,  22px);
+    font-size: clamp(11px, 1.5vw,  22px);
     font-weight: normal;
 }
+
+
+
+
 
 /* NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR*/
 .navbar a{
@@ -137,6 +141,43 @@ body{
 /* FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR */
 
 
+
+
+
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER*/
+footer{
+    background-color: var(--custom-footer-color);
+    color: var(--custom-text-light-color);
+}
+footer a, p{
+    text-decoration: none;
+    color: var(--custom-text-light-color);
+}
+footer p{
+    margin-bottom: 5px;
+}
+footer hr{
+    color: var(--custom-text-light-color);
+    opacity: 1;
+}
+footer .account{
+    padding-left: 5%;
+}
+@media only screen and (max-width: 575px){
+    footer .account{
+        padding-left: 3%;
+    }
+}
+footer img{
+ width: clamp(16px, 3vw,  35px);
+}
+/* FINE FOOTER FINE FOOTER FINE FOOTER FINE FOOTER FINE FOOTER FINE FOOTER FINE FOOTER */
+
+
+
+
+
 /* ADOTTA ADOTTA ADOTTA ADOTTA ADOTTA ADOTTA ADOTTA*/
 #divCardAdotta{
     margin: 50px 0;
@@ -155,7 +196,7 @@ body{
     border: 0;
     background-color: var(--custom-background-color);
 }
-.card-title{
+.card-title{ /*BOTTONE ADOTTAMI*/
     margin-bottom: 6vw;
     margin-right: 3%;
     font-size: 2.7vw;
@@ -177,9 +218,31 @@ body{
         margin-bottom: 1%;
         background: rgba(249, 255, 248, 0.5);
         transition: background 500ms ease-in-out;
-        border-radius: 3px;
+    }
+    .card-title{
+        margin-bottom: 4vw;
     }
 }
+.bottoneAdotta {
+    color: var(--custom-text-light-color);
+    border-color: var(--custom-cta-color);
+    background-color: var(--custom-cta-color);
+    border-radius: 30px;
+    border-width: 3px;
+    margin:auto;
+    display:block;
+    width: 26vw;
+    font-size: 3vw;
+    transition: width 200ms ease-in-out, border-color 200ms ease-in-out;
+}
+.bottoneAdotta:hover {
+    color: var(--custom-text-light-color);
+    border-color: var(--custom-background-color);
+    background-color: var(--custom-cta-color);
+    width: 27vw;
+    transition: width 200ms ease-in-out, border-color 200ms ease-in-out;
+}
+
 .card-img-overlay {
     display: flex;
     flex-direction: column;
@@ -199,13 +262,22 @@ body{
     transition: width 200ms ease-in-out, height 200ms ease-in-out;
 }
 
-.secondoDiv{
-    background-color: var(--custom-decorative-green-color);
-    color: var(--custom-text-light-color);
-    margin-top: 12%;
-}
 #adottaH2Community{
-    padding-top: 30px;
+    padding: 30px 0;
+}
+.communityRow img{
+    margin: -5% auto auto auto;
+    display: block;
+    width: 22vw;
+}
+.statsAdotta{
+    font-weight: 600;
+    font-size: clamp(21px, 2.5vw,  36px);
+    margin: auto auto 5% auto;
+}
+.statsAdottaTitle{
+    font-weight: 400;
+    font-size: clamp(16px, 2vw,  24px);
 }
 /* FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA*/
 
@@ -214,26 +286,10 @@ body{
 .erbaDecorativa{
     width: 100%;
     position: absolute;
-    margin-top: -7.5%;
+    margin-top: -7.7%;
 }
-/*
-@media only screen and (min-width: 1500px) {
-    .erbaDecorativa{
-        margin-top: -7%;
-    }
+.bloccoScuro{
+    background-color: var(--custom-decorative-green-color);
+    color: var(--custom-text-light-color);
+    margin-top: 12%;
 }
-@media only screen and (max-width: 800px) {
-    .erbaDecorativa{
-        margin-top: -9.5%;
-    }
-}
-@media only screen and (max-width: 600px) {
-    .erbaDecorativa{
-        margin-top: -11%;
-    }
-}
-@media only screen and (max-width: 450px) {
-    .erbaDecorativa {
-        margin-top: -13%;
-    }
-}*/
