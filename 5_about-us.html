@@ -18,23 +18,23 @@
 <h1 class="text-center mt-4"> About us </h1>
 <h2 class="text-center mt-4"> Storia </h2>
 
-<div class="container mt-5">
-  <div class="row  justify-content-evenly mb-5">
-    <div class="col-md-5 pe-5 me-4">
+<div class="container-fluid mt-5">
+  <div class="row mb-5 pb-2 ms-4 me-4">
+    <div class="col-md-5 allineamento">
       <p> Non tutte le storie escono con il buco! Ehm, forse quelle sono le ciambelle... Beccati! </br> Il cibo è un chiodo fisso nelle teste di tutto il <strong> Team di F4N </strong> ed è proprio questo uno dei motivi per cui è nata Fridge for Nature. </p>
       <p>L’idea con il buco, nasce dopo una serie di proposte subito gettate nella raccolta differenziata. Ognuna di queste aveva però una cosa in comune: <strong>la salvaguardia dell’ambiente.</strong>  </p>
       <p>Mettendo insieme i pezzi ci siamo resi conto che la nostra passione per il cibo poteva combinarsi con il nostro <strong> obiettivo.</strong> </p>
     </div>
-    <div class="col-md-4">
-      <img src="img/about%20us/img1.png" class="imgabout ms-5">
+    <div class="col-md-5 pt-4 allineamento">
+      <img src="img/about%20us/img1.png" class="imgabout">
     </div>
   </div>
 
-   <div class="d-flex row justify-content-evenly ms-3 mb-5 ">
-      <div class="col-md-5 pe-4 me-4">
-        <img src="img/about%20us/img2.png" class="imgabout me-5">
+   <div class="row mt-5 mb-5 ms-4 me-4">
+      <div class="col-md-5 pb-4 allineamento">
+        <img src="img/about%20us/img2.png" class="imgabout" id="imgsparisce">
        </div>
-      <div class="col-md-5">
+      <div class="col-md-5 allineamento">
         <p>Scopriamo che seguendo un’alimentazione sana e sostenibile è possibile <strong> ridurre i disboscamenti e la consumazione del suolo </strong> che porta alla desertificazione dei nostri territori.</p>
        <p>È a questo punto che decidiamo di ideare Fridge for Nature, un’applicazione per Smart Fridge e Smartphones che permette agli utenti di seguire i nostri consigli alimentari e <strong> salvare il pianeta.</strong> </p>
         <p> Ci siamo poi resi conto che non basta combattere la desertificazione dei territori, ma è necessario ribaltare la situazione e contribuire invece al <strong> rimboschimento </strong>, è così che nasce il nostro progetto di adozione di alberi nel mondo.</p>
@@ -43,15 +43,20 @@
   </div>
 </div>
 
-<div class="col align-self-center">
+<div class="align-self-center">
   <p class="fw-bold text-center"> Adesso che conosci la nostra storia non ti resta che scoprire in dettaglio la mission di F4N! </p>
-  <button type="button" class="btn fw-bold btn-outline-success text-uppercase bottone"> <img src="img/navbar/pear.png"> Leggi la Mission </button>
+<button type="button" class="btn fw-bold btn-outline-success text-uppercase pe-4 mt-4 mb-5 bottone"> <img src="img/navbar/pear.svg" class="iconabottone"> Leggi la Mission </button>
+</div>
+
 </div>
 <!--PARTE FINO A BOTTONE-->
 
+
+
+
 <!-- BLOCCO SCURO-->
 <div class="bloccoScuro">
-  <img src="img/grassv1.png" class="erbaDecorativa">
+  <img src="img/grassv2.svg" class="erbaDecorativa">
 
 
 <h2 class="text-center pt-5 pb-5"> Chi siamo </h2>
@@ -109,12 +114,12 @@
 </div>
 
 </div>
-
 <!--FINE BLOCCO SCURO-->
 
+
+<!--form-->
 <h2 class="text-center mt-5 pt-5 pb-5"> Contattaci </h2>
-  <!--form-->
-  <form class="pt-2">
+  <form class="pt-2 pb-5">
     <div class="formpiccoli">
     <div class="mb-3">
       <label for="exampleInputEmail1" class="form-label">Nome</label>
@@ -128,31 +133,53 @@
       <label for="exampleInputEmail3" class="form-label">Email address</label>
       <input type="email" class="form-control riempimento" id="exampleInputEmail3" aria-describedby="emailHelp">
     </div>
-    </div>
-
-    <div class="mb-3 form-check">
-     <p> <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1"> Aiuto </label></p>
-
-     <p> <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1"> Aiuto </label> </p>
-
-      <p><input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1"> Aiuto </label></p>
 
     </div>
 
+    <p class="text-center mt-5"> Motivo </p>
+    <div class="mb-3  d-flex flex-row justify-content-center formpiccoli">
+            <div class="contenitoriscelteform">
+              <input class="form-check-input colorecheck" type="radio" value="" aria-label="Radio button for following text input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1"> Aiuto </label>
+            </div>
+
+             <div class="contenitoriscelteform">
+               <p> <input class="form-check-input colorecheck" type="radio" value="" aria-label="Radio button for following text input" id="exampleCheck1">
+                 <label class="form-check-label" for="exampleCheck1"> Ricetta* </label> </p>
+             </div>
 
 
+             <div class="contenitoriscelteform">
+               <p><input class="form-check-input colorecheck" type="radio" value="" aria-label="Radio button for following text input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1"> Altro </label></p>
+             </div>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+
+
+    <p class="text-center"> Messaggio </p>
+    <div class="mb-3 ">
+      <textarea class="form-control formmess" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <p class="text-center mb-5">*La ricetta verrà pubblicata utilizzando il tuo pseudonimo ed eventuali contatti forniti all’interno del messaggio</p>
+    </div>
+
+    <button type="button" class="btn fw-bold btn-outline-success text-uppercase pe-4 mt-4 bottone"> <img src="img/Fogliaicona.svg" class="iconabottone"> Invia</button>
+
   </form>
 <!--form-->
 
+<!--social-->
+<h3 class="text-center mt-4"> Seguici sui social </h3>
+<div class="d-flex flex-row justify-content-evenly mt-5 mb-5 contenitoreicone">
+  <a href="https://www.instagram.com"><img src="img/about%20us/icon_igabout.svg"> </a>
+  <a href="https://www.twitter.com"><img src="img/about%20us/icon_twabout.svg"> </a>
+  <a href="https://www.facebook.com"><img src="img/about%20us/icon_fbabout.svg"> </a>
+</div>
+<!--fine social-->
 
-<!--FOOOOOOTER-->
 
-<!--fine FOOOOOOTER-->
 
 
 

@@ -130,49 +130,118 @@ body{
     border-radius: 30px;
 }
 
+
+@media only screen and (max-width: 660px) {
+    #imgsparisce {
+        display: none;
+    }
+}
+
+/* BOOOOOOOOOOOOOOTTONEEEEEEEEEEE */
 .bottone {
     color: var(--custom-text-dark-color);
     border-color: var(--custom-decorative-green-color);
-    border-radius: 20px;
+    border-radius: 30px;
     border-width: 2px;
     margin:auto;
     display:block;
+    font-size: clamp(10px, 1.5vw,  22px) ;
+    height: 5%;
 }
  .bottone:hover {
      color: var(--custom-text-light-color);
      background-color: var(--custom-decorative-green-color);
+     border-color: var(--custom-decorative-green-color);
  }
 
+ .iconabottone {
+     width: clamp(15px, 1.5vw,  20px);
+     padding-bottom: 0.3vh;
+     margin-left: 0.5vw;
+ }
 
-
-/* LASCIARE ALLA FINE --- LASCIARE ALLA FINE --- LASCIARE ALLA FINE*/
-.erbaDecorativa{
-    width: 100%;
-    position: absolute;
-    margin-top: -7.7%;
+.allineamento {
+    margin:auto;
+    display:block;
+}
+.bottonetesto {
+    margin-right: 0.5vw;
 }
 
-.bloccoScuro{
-    background-color: var(--custom-decorative-green-color);
-    color: var(--custom-text-light-color);
-    margin-top:12%;
-}
+/* BOOOOOOOOOOOOOOTTONEEEEEEEEEEE  <button type="button" class="btn fw-bold btn-outline-success text-uppercase pe-4 bottone"> */
+
 
 
 /*  form */
+form {
+    color:var(--custom-text-dark-color) !important;
+}
 .formpiccoli {
     width: 25vw;
     margin:auto;
     display:block;
+    border-radius: 15px;
 }
 
 .riempimento {
     background-color: #81C295;
     opacity: 35%;
 }
+
+.contenitoriscelteform {
+    width: 9vw;
+    text-align: center;
+}
+
+.colorecheck {
+    border-color: var(--custom-decorative-green-color);
+    border-width: 2px;
+    background-color: var(--custom-background-color);
+}
+
+.formmess {
+    width: 60vw;
+    height: 32vh;
+    margin:auto;
+    display:block;
+    background-color: RGBA(129,194,149, .35);
+    border-radius: 15px;
+    border-color: RGBA(129,194,149,.35);
+}
+
+
+@media only screen and (max-width: 992px) {
+    .formpiccoli {
+        width: 60vw;
+        border-radius: 15px;
+    }
+}
+
+
 /* fine form */
 
 
+/* Sezione social About us */
+.contenitoreicone {
+    max-width: 25vw;
+    margin:auto;
+    display:block;
+}
+
+.contenitoreicone img {
+    padding-left: 0.7vw;
+    padding-right:0.7vw;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .contenitoreicone img {
+        width:84%;
+        padding-left: 0.7vw;
+        padding-right: 0.7vw;
+    }
+}
+/* FINE sezione social About us */
 
 
 /* FOOTER */
@@ -181,7 +250,7 @@ footer {
     color: var(--custom-text-light-color);
 }
 
-footer a {
+footer a, li {
     color: var(--custom-text-light-color);
 }
 
@@ -196,4 +265,17 @@ hr {
 
 /* FINE FOOTER */
 
+/* BLOCCO SCURO BLOCCO SCURO BLOCCO SCURO*/
+.erbaDecorativa{
+    width: 100%;
+    position: absolute;
+    margin-top: -7.7%;
+}
 
+.bloccoScuro{
+    background-color: var(--custom-decorative-green-color);
+    color: var(--custom-text-light-color);
+    margin-top:12%;
+}
+
+/*BLOCCO SCURO BLOCCO SCURO*/
