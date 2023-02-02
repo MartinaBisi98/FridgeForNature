@@ -32,7 +32,7 @@ body{
     background-color: var(--custom-background-color);
     font-family: 'Quicksand', sans-serif;
     color: var(--custom-text-dark-color);
-    font-size: clamp(10px, 1.5vw,  22px);
+    font-size: clamp(14px, 2vw,  22px);
     font-weight: normal;
 }
 
@@ -245,7 +245,6 @@ form {
 
 
 
-
 /* SEZIONE APP */
 .bloccotesto {
     text-align: left;
@@ -254,22 +253,39 @@ form {
     padding: 10px;
 }
 
+@media all and (min-width: 992px) {
+    .nodesk {display: none !important;
+      }
+    .mostrarecel {display:block;}
+}
+
+
+@media all and (max-width: 992px) {
+    .deskContent {display:block;}
+    .phoneContent {display:none;}
+}
+
+
 
 @media only screen and (max-width: 992px) {
-
     .colonneimmagine {
         width:50%;
-
     }
     .colonneimmagine img {
         width: 100%;
     }
 }
 
+.traguardi {
+    width: 20vw;
+    text-align: center;
+}
 
-
-
-
+@media only screen and (max-width: 660px) {
+    .iconetraguardi {
+        width: 28%;
+    }
+}
 
 
 
@@ -303,6 +319,12 @@ hr {
     width: 100%;
     position: absolute;
     margin-top: -7.7%;
+}
+
+.erbaDecorativav2 {
+    width: 100%;
+    position: absolute;
+    margin-top: -5.7%;
 }
 
 .bloccoScuro{
