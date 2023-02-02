@@ -32,7 +32,7 @@ body{
     background-color: var(--custom-background-color);
     font-family: 'Quicksand', sans-serif;
     color: var(--custom-text-dark-color);
-    font-size: clamp(11px, 1.5vw,  22px);
+    font-size: clamp(14px, 2vw,  22px);
     font-weight: normal;
     scroll-behavior: smooth;
 }
@@ -133,7 +133,7 @@ body{
         width: 35%;
     }
     #userIcon{
-        content: url("/img/navbar/userIconLight.png");
+        content: url("/img/navbar/userIconLight.svg");
         width: 25px;
         height: 25px;
         margin-bottom: 5%;
@@ -164,8 +164,9 @@ body{
 footer{
     background-color: var(--custom-footer-color);
     color: var(--custom-text-light-color);
+    font-size: clamp(12px, 2vw,  22px);
 }
-footer a, p{
+footer a, footer p{
     text-decoration: none;
     color: var(--custom-text-light-color);
 }
@@ -193,6 +194,13 @@ footer img{
 
 
 
+/* HOME HOME HOME HOME HOME HOME HOME HOME HOME*/
+.divHome h1{
+    font-size: clamp(25px, 5vw,  72px);
+}
+
+/* FINE HOME FINE HOME FINE HOME FINE HOME FINE HOME FINE HOME FINE HOME */
+
 /* ADOTTA ADOTTA ADOTTA ADOTTA ADOTTA ADOTTA ADOTTA*/
 #divCardAdotta{
     margin: 50px 0;
@@ -201,14 +209,8 @@ footer img{
 #adottaSubtitle{
     padding: 20px 0 30px 0;
 }
-#adottaTitle{
-    padding-top: 50px
-}
 .primoDivAdotta{
     margin-bottom: 50px;
-}
-.primoDivAdotta p{
-    color: var(--custom-text-dark-color);
 }
 .card{
     border: 0;
@@ -232,7 +234,7 @@ footer img{
     margin-bottom: 4%;
     transition: background 500ms ease-in-out;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
     .card-footer p{
         margin-bottom: 1%;
         background: rgba(249, 255, 248, 0.5);
@@ -268,6 +270,8 @@ footer img{
     justify-content: flex-end;
     height: 100%;
     width: 100%;
+    font-size: clamp(10px, 2vw,  22px);
+
 }
 
 .carousel-prev-icon, .carousel-next-icon {
@@ -279,10 +283,6 @@ footer img{
     width: 6.5vw;
     height: 6.5vw;
     transition: width 200ms ease-in-out, height 200ms ease-in-out;
-}
-
-#adottaH2Community{
-    padding: 30px 0;
 }
 .communityRow img{
     margin: -5% auto auto auto;
@@ -296,19 +296,32 @@ footer img{
 }
 .statsAdottaTitle{
     font-weight: 400;
-    font-size: clamp(16px, 2vw,  24px);
 }
 /* FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA*/
 
 
 /* LASCIARE ALLA FINE --- LASCIARE ALLA FINE --- LASCIARE ALLA FINE*/
-.erbaDecorativa{
+.erbaDecorativa, .erbaDecorativav2{
     width: 100%;
     position: absolute;
+}
+.erbaDecorativa{
     margin-top: -7.7%;
+}
+.erbaDecorativav2 {
+    margin-top: -7.7%;
+}
+.radiciDecorative{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: -6.5%;
 }
 .bloccoScuro{
     background-color: var(--custom-decorative-green-color);
     color: var(--custom-text-light-color);
     margin-top: 12%;
+}
+.bloccoCentrale{
+    margin-bottom: 15%;
 }
