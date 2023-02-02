@@ -34,6 +34,7 @@ body{
     color: var(--custom-text-dark-color);
     font-size: clamp(11px, 1.5vw,  22px);
     font-weight: normal;
+    scroll-behavior: smooth;
 }
 
 
@@ -126,7 +127,7 @@ body{
         background-color: var(--custom-decorative-green-color);
         border: solid 3px var(--custom-footer-color);
         border-radius: 30px;
-        margin-top: 450px;
+        margin-top: 390px;
         margin-left: 60%;
         position: absolute;
         width: 35%;
@@ -136,6 +137,20 @@ body{
         width: 25px;
         height: 25px;
         margin-bottom: 5%;
+    }
+}
+@media only screen and (max-width: 485px) {
+    .navbar-collapse{
+        margin-top: 360px;
+        margin-left: 45%;
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 376px) {
+    .navbar-collapse{
+        margin-top: 350px;
+        margin-left: 35%;
+        width: 60%;
     }
 }
 /* FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR */
@@ -189,8 +204,11 @@ footer img{
 #adottaTitle{
     padding-top: 50px
 }
-.primoDiv{
+.primoDivAdotta{
     margin-bottom: 50px;
+}
+.primoDivAdotta p{
+    color: var(--custom-text-dark-color);
 }
 .card{
     border: 0;
@@ -210,6 +228,7 @@ footer img{
     padding: 0 2%;
 }
 .card-footer p {
+    color: var(--custom-text-dark-color);
     margin-bottom: 4%;
     transition: background 500ms ease-in-out;
 }
