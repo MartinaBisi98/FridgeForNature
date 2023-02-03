@@ -130,7 +130,6 @@ body{
     border-radius: 30px;
 }
 
-
 @media only screen and (max-width: 660px) {
     #imgsparisce {
         display: none;
@@ -143,10 +142,7 @@ body{
     border-color: var(--custom-decorative-green-color);
     border-radius: 30px;
     border-width: 2px;
-    margin:auto;
-    display:block;
-    font-size: clamp(10px, 1.5vw,  22px) ;
-    height: 5%;
+    font-size: clamp(14px, 2vw,  22px);
 }
  .bottone:hover {
      color: var(--custom-text-light-color);
@@ -157,18 +153,11 @@ body{
  .iconabottone {
      width: clamp(15px, 1.5vw,  20px);
      padding-bottom: 0.3vh;
-     margin-left: 0.5vw;
+     margin-left: 0.3vw;
  }
 
-.allineamento {
-    margin:auto;
-    display:block;
-}
-.bottonetesto {
-    margin-right: 0.5vw;
-}
 
-/* BOOOOOOOOOOOOOOTTONEEEEEEEEEEE  <button type="button" class="btn fw-bold btn-outline-success text-uppercase pe-4 bottone"> */
+/* BOOOOOOOOOOOOOOTTONEEEEEEEEEEE class="btn fw-bold btn-outline-success text-uppercase allineamento bottone" */
 
 
 
@@ -212,8 +201,23 @@ form {
 
 @media only screen and (max-width: 992px) {
     .formpiccoli {
-        width: 60vw;
+        width: 75vw;
+        border-radius: 30px;
+    }
+
+    .formmess {
+        width: 75vw;
+        height: 32vh;
+        margin:auto;
+        display:block;
+        background-color: RGBA(129,194,149, .35);
         border-radius: 15px;
+        border-color: RGBA(129,194,149,.35);
+    }
+
+    .contenitoriscelteform {
+        width: 75vw;
+
     }
 }
 /* fine form */
@@ -222,8 +226,6 @@ form {
 /* Sezione social About us */
 .contenitoreicone {
     max-width: 25vw;
-    margin:auto;
-    display:block;
 }
 
 .contenitoreicone img {
@@ -232,9 +234,12 @@ form {
 }
 
 @media only screen and (max-width: 992px) {
+    .contenitoreicone {
+        max-width: 43vw;
+    }
 
     .contenitoreicone img {
-        width:84%;
+        width:74%;
         padding-left: 0.7vw;
         padding-right: 0.7vw;
     }
@@ -246,33 +251,29 @@ form {
 
 
 /* SEZIONE APP */
-.bloccotesto {
-    text-align: left;
-    margin: auto;
-    width: 66%;
-    padding: 10px;
+.colonneimmagine {
+    width: 50%;
 }
-
+.colonneimmagine img {
+    width: 99%;
+    padding-right: 3vw;
+}
 @media all and (min-width: 992px) {
-    .nodesk {display: none !important;
-      }
+    .nodesk {display: none !important;}
     .mostrarecel {display:block;}
 }
-
 
 @media all and (max-width: 992px) {
     .deskContent {display:block;}
     .phoneContent {display:none;}
 }
 
-
-
 @media only screen and (max-width: 992px) {
-    .colonneimmagine {
-        width:50%;
-    }
     .colonneimmagine img {
         width: 100%;
+    }
+    .imgdow {
+        margin-bottom: 6px !important;
     }
 }
 
@@ -314,11 +315,26 @@ hr {
 
 /* FINE FOOTER */
 
+
+/* ALLINEAMENTO */
+.allineamento {
+    margin:auto;
+    display:block;
+}
+/* ALLINEAMENTO */
+
+
 /* BLOCCO SCURO BLOCCO SCURO BLOCCO SCURO*/
 .erbaDecorativa{
     width: 100%;
     position: absolute;
     margin-top: -7.7%;
+}
+
+@media only screen and (max-width: 500px) {
+    .erbaDecorativa{
+        margin-top: -7.5%;
+    }
 }
 
 .erbaDecorativav2 {
@@ -332,5 +348,6 @@ hr {
     color: var(--custom-text-light-color);
     margin-top:12%;
 }
+
 
 /*BLOCCO SCURO BLOCCO SCURO*/
