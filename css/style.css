@@ -198,8 +198,20 @@ footer img{
 .divHome h1{
     font-size: clamp(25px, 5vw,  72px);
 }
-
 /* FINE HOME FINE HOME FINE HOME FINE HOME FINE HOME FINE HOME FINE HOME */
+
+
+
+
+
+/* MISSION MISSION MISSION MISSION MISSION MISSION MISSION MISSION MISSION*/
+
+
+
+/* FINE MISSION FINE MISSION FINE MISSION FINE MISSION FINE MISSION FINE MISSION FINE MISSION */
+
+
+
 
 /* ADOTTA ADOTTA ADOTTA ADOTTA ADOTTA ADOTTA ADOTTA*/
 #adoptDivCard{
@@ -335,7 +347,7 @@ footer img{
     border: solid 2px;
     width: auto;
     opacity: 1;
-    transition: border-color 200ms ease-in-out, background-color 200ms ease-in-out;
+    transition: border-color 300ms ease-in-out, background-color 300ms ease-in-out;
 }
 .darkButton{
     color: var(--custom-text-light-color);
@@ -346,6 +358,7 @@ footer img{
     color: var(--custom-text-dark-color);
     border-color: var(--custom-text-light-color);
     background-color: var(--custom-text-light-color);
+    transition: border-color 400ms ease-in-out, background-color 400ms ease-in-out;
 }
 .lightButton{
     color: var(--custom-text-dark-color);
@@ -356,6 +369,7 @@ footer img{
     color: var(--custom-text-light-color);
     border-color: var(--custom-cta-color);
     background-color: var(--custom-cta-color);
+    transition: border-color 400ms ease-in-out, background-color 400ms ease-in-out;
 }
 .buttonText{
     margin: 1vw;
