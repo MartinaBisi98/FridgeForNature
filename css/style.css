@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 :root {
     --custom-background-color: #F9FFF8;
     --custom-text-light-color: #F5FFE6;
@@ -40,14 +41,13 @@ body{
 
 
 
-
 /* NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR*/
 .navbar a{
     color: var(--custom-text-dark-color);
     font-weight: bold;
     overflow:hidden;
 }
-.compcentralemenu .active{
+.menuMiddleComponent .active{
     text-decoration: underline;
 }
 .nav-item img{
@@ -83,23 +83,23 @@ body{
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(249,255,248, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 @media only screen and (min-width: 991px) {
-    .compcentralemenu a{
+    .menuMiddleComponent a{
         border: solid 2px;
         border-radius: 30px;
         border-color: var(--custom-decorative-green-color);
         overflow: hidden;
     }
-    .compcentralemenu .active{
+    .menuMiddleComponent .active{
         background-color: var(--custom-decorative-green-color);
         color: var(--custom-text-light-color) !important;
         text-decoration: none;
     }
-    .compcentralemenu a:hover:not(.active){
+    .menuMiddleComponent a:hover:not(.active){
         background-color: var(--custom-decorative-green-color);
         background-size: cover;
         color: var(--custom-text-light-color);
     }
-    .compcentralemenu a:hover:not(.active) img{
+    .menuMiddleComponent a:hover:not(.active) img{
         transition: width 500ms ease-in-out, margin-right 500ms ease-in-out, margin-left 500ms ease-in-out;
         width: 20px;
         margin-right: 10px;
@@ -107,11 +107,11 @@ body{
     }
 }
 @media only screen and (max-width: 991px) {
-    .compcentralemenu a:hover:not(.active) {
+    .menuMiddleComponent a:hover:not(.active) {
         text-decoration: underline;
         transition: text-decoration 1s ease;;
     }
-    .compcentralemenu a:hover:not(.active) img{
+    .menuMiddleComponent a:hover:not(.active) img{
         transition: width 500ms ease-in-out, margin-right 500ms ease-in-out;
         width: 20px;
         margin-right: 10px;
@@ -202,14 +202,14 @@ footer img{
 /* FINE HOME FINE HOME FINE HOME FINE HOME FINE HOME FINE HOME FINE HOME */
 
 /* ADOTTA ADOTTA ADOTTA ADOTTA ADOTTA ADOTTA ADOTTA*/
-#divCardAdotta{
+#adoptDivCard{
     margin: 50px 0;
     align-content: center;
 }
-#adottaSubtitle{
+#adoptSubtitle{
     padding: 20px 0 30px 0;
 }
-.primoDivAdotta{
+.adoptFirstDiv{
     margin-bottom: 50px;
 }
 .card{
@@ -289,39 +289,81 @@ footer img{
     display: block;
     width: 22vw;
 }
-.statsAdotta{
+.adoptStats{
     font-weight: 600;
     font-size: clamp(21px, 2.5vw,  36px);
     margin: auto auto 5% auto;
 }
-.statsAdottaTitle{
+.adoptStatsTitle{
     font-weight: 400;
 }
 /* FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA*/
 
 
 /* LASCIARE ALLA FINE --- LASCIARE ALLA FINE --- LASCIARE ALLA FINE*/
-.erbaDecorativa, .erbaDecorativav2{
+.decorativeGrass, .decorativeGrassv2{
     width: 100%;
     position: absolute;
 }
-.erbaDecorativa{
+@media only screen and (max-width: 500px) {
+    .decorativeGrass, .decorativeGrassv2{
+        margin-top: -7.5% !important;
+    }
+}
+.decorativeGrass{
     margin-top: -7.7%;
 }
-.erbaDecorativav2 {
+.decorativeGrassv2 {
     margin-top: -7.7%;
 }
-.radiciDecorative{
+.decorativeRoots{
     width: 100%;
     position: absolute;
     z-index: -1;
     margin-top: -6.5%;
 }
-.bloccoScuro{
+.darkDiv{
     background-color: var(--custom-decorative-green-color);
     color: var(--custom-text-light-color);
     margin-top: 12%;
 }
-.bloccoCentrale{
+.middleBodyDiv{
     margin-bottom: 15%;
+}
+.lightButton, .darkButton{
+    border-radius: 30px;
+    border: solid 2px;
+    width: auto;
+    opacity: 1;
+    transition: border-color 200ms ease-in-out, background-color 200ms ease-in-out;
+}
+.darkButton{
+    color: var(--custom-text-light-color);
+    border-color: var(--custom-text-light-color);
+    background-color: var(--custom-cta-color);
+}
+.darkButton:hover{
+    color: var(--custom-text-dark-color);
+    border-color: var(--custom-text-light-color);
+    background-color: var(--custom-text-light-color);
+}
+.lightButton{
+    color: var(--custom-text-dark-color);
+    border-color: var(--custom-cta-color);
+    background-color: var(--custom-background-color);
+}
+.lightButton:hover{
+    color: var(--custom-text-light-color);
+    border-color: var(--custom-cta-color);
+    background-color: var(--custom-cta-color);
+}
+.buttonText{
+    margin: 1vw;
+    display: block;
+    font-weight: bold;
+}
+.buttonText img{
+    margin-right: 1vw;
+    width: clamp(14px, 2vw,  25px);
+    margin-top: -3px;
 }
