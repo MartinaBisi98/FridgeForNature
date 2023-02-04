@@ -108,10 +108,7 @@ body{
 
 /*CARD*/
 
-.card{
-    padding=0;
 
-}
 .card-wrapper{
 
 }
@@ -125,37 +122,46 @@ body{
 
 
 /* ABOUT US */
-.imgabout {
-    width: 100%;
-    border-radius: 30px;
-}
 
-@media only screen and (max-width: 660px) {
-    #imgsparisce {
-        display: none;
-    }
-}
 
 /* BOOOOOOOOOOOOOOTTONEEEEEEEEEEE */
-.bottone {
-    color: var(--custom-text-dark-color);
-    border-color: var(--custom-decorative-green-color);
+.lightButton, .darkButton{
     border-radius: 30px;
-    border-width: 2px;
-    font-size: clamp(14px, 2vw,  22px);
+    border: solid 2px;
+    width: auto;
+    opacity: 1;
+    transition: border-color 200ms ease-in-out, background-color 200ms ease-in-out;
 }
- .bottone:hover {
-     color: var(--custom-text-light-color);
-     background-color: var(--custom-decorative-green-color);
-     border-color: var(--custom-decorative-green-color);
- }
-
- .iconabottone {
-     width: clamp(15px, 1.5vw,  20px);
-     padding-bottom: 0.3vh;
-     margin-left: 0.3vw;
- }
-
+.darkButton{
+    color: var(--custom-text-light-color);
+    border-color: var(--custom-text-light-color);
+    background-color: var(--custom-cta-color);
+}
+.darkButton:hover{
+    color: var(--custom-text-dark-color);
+    border-color: var(--custom-text-light-color);
+    background-color: var(--custom-text-light-color);
+}
+.lightButton{
+    color: var(--custom-text-dark-color);
+    border-color: var(--custom-cta-color);
+    background-color: var(--custom-background-color);
+}
+.lightButton:hover{
+    color: var(--custom-text-light-color);
+    border-color: var(--custom-cta-color);
+    background-color: var(--custom-cta-color);
+}
+.buttonText{
+    margin: 1vw;
+    display: block;
+    font-weight: bold;
+}
+.buttonText img{
+    margin-right: 1vw;
+    width: clamp(14px, 2vw,  25px);
+    margin-top:-3px;
+}
 
 /* BOOOOOOOOOOOOOOTTONEEEEEEEEEEE class="btn fw-bold btn-outline-success text-uppercase allineamento bottone" */
 
@@ -191,8 +197,6 @@ form {
 .formmess {
     width: 60vw;
     height: 32vh;
-    margin:auto;
-    display:block;
     background-color: RGBA(129,194,149, .35);
     border-radius: 15px;
     border-color: RGBA(129,194,149,.35);
@@ -308,12 +312,6 @@ hr {
 /* FINE FOOTER */
 
 
-/* ALLINEAMENTO */
-.allineamento {
-    margin:auto;
-    display:block;
-}
-/* ALLINEAMENTO */
 
 
 /* BLOCCO SCURO BLOCCO SCURO BLOCCO SCURO*/
