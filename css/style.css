@@ -287,6 +287,54 @@ form {
 
 
 
+/* ARTICOLO */
+.titoloart {
+ color: var(--custom-text-light-color);
+}
+
+.articleseparator {
+    width: 28vw;
+    border: 2px solid;
+    color: var(--custom-text-dark-color);
+    opacity: 100;
+}
+
+.references a {
+    color: var(--custom-text-dark-color);
+}
+
+.iconarticle {
+    width: 3vw;
+    height: 5vh;
+}
+
+.iconarticlemobile {
+    width: 9vw;
+    height: 11vh;
+}
+
+.articleHeader{
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+.articleHeader img{
+    display: block;
+    object-fit: cover;
+    text-align: center;
+    width: 100%;
+    height: 455px;
+}
+.articleTitle{
+    position: absolute !important;
+    bottom: 10px;
+    color: var(--custom-text-light-color);
+}
+
+/* ARTICOLO */
+
+
+
 
 
 
@@ -339,5 +387,9 @@ hr {
     margin-top:12%;
 }
 
+.allineamento {
+    margin: auto;
+    display: block;
+}
 
 /*BLOCCO SCURO BLOCCO SCURO*/
