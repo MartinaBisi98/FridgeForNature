@@ -157,6 +157,10 @@ body{
         width: 60%;
     }
 }
+.logoNavBar {
+    width: 54px;
+    height: 54px;
+}
 /* FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR */
 
 
@@ -421,6 +425,9 @@ footer img{
 
 .leafButtonDark:hover img{
     content: url("/img/darkLeaf.svg");
+}
+.leafButtonLight:hover img{
+    content: url("/img/lightLeaf.svg");
 }
 
 
