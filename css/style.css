@@ -28,6 +28,10 @@ h3{
     font-weight: 600;
     font-size: clamp(21px, 2.5vw,  36px);
 }
+h4{
+    font-weight: 600;
+    font-size: clamp(14px, 2vw,  28px);
+}
 body{
     background-color: var(--custom-background-color);
     font-family: 'Quicksand', sans-serif;
@@ -109,12 +113,46 @@ body{
 /*CARD*/
 
 
-.card-wrapper{
-
-}
-
 .corpocard {
     background-color: var(--custom-background-color);
+    text-align: left;
+}
+.corpocardark {
+    background-color: var(--custom-decorative-green-color);
+}
+.imgcard{
+    object-fit: cover;
+    width: 18vw;
+    aspect-ratio: 1 / 1;
+}
+
+.borderimgcard {
+    background-color: var(--custom-background-color);
+}
+.borderimgcardark {
+    background-color: var(--custom-decorative-green-color);
+}
+
+.imgcard:hover {
+    border: 4px solid;
+    border-color: var(--custom-decorative-orange-color);
+}
+
+.carousel-prev-icon:hover{
+    content: url("/img/frecciaSxHover.svg");
+}
+.carousel-next-icon:hover{
+    content: url("/img/frecciaDxHover.svg");
+}
+.carousel-prev-icon, .carousel-next-icon {
+    width: 6vw;
+    height: 6vw;
+    transition: width 200ms ease-in-out, height 200ms ease-in-out;
+}
+.carousel-prev-icon:hover, .carousel-next-icon:hover{
+    width: 6.5vw;
+    height: 6.5vw;
+    transition: width 200ms ease-in-out, height 200ms ease-in-out;
 }
 
 /* FINE CARD*/
@@ -331,8 +369,11 @@ form {
     color: var(--custom-text-light-color);
 }
 
-/* ARTICOLO */
 
+.imgalbero {
+    transform: scaleX(-1);
+}
+/* ARTICOLO */
 
 
 
