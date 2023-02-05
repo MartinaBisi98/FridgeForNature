@@ -106,12 +106,10 @@ body{
         float: right;
     }
 }
-
 /* FINE NAVBAR */
 
 
 /*CARD*/
-
 
 .corpocard {
     background-color: var(--custom-background-color);
@@ -124,6 +122,15 @@ body{
     object-fit: cover;
     width: 18vw;
     aspect-ratio: 1 / 1;
+}
+.imgcardmobile {
+    object-fit: cover;
+    width: 36vw;
+    aspect-ratio: 1 / 1;
+}
+.imgcardmobile:hover {
+    border: 4px solid;
+    border-color: var(--custom-decorative-orange-color);
 }
 
 .borderimgcard {
