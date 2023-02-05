@@ -280,7 +280,6 @@ footer img{
     width: 99%;
     padding-right: 3vw;
 }
-
 @media only screen and (max-width: 992px) {
     .missionImageCol img {
         width: 100%;
@@ -289,7 +288,6 @@ footer img{
         margin-bottom: 6px !important;
     }
 }
-
 @media only screen and (max-width: 660px) {
     .goalIcon {
         width: 28%;
