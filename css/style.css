@@ -302,7 +302,7 @@ footer img{
         margin-bottom: 4vw;
     }
 }
-.bottoneAdotta {
+.adoptButton {
     color: var(--custom-text-light-color);
     border-color: var(--custom-cta-color);
     background-color: var(--custom-cta-color);
@@ -314,7 +314,7 @@ footer img{
     font-size: 3vw;
     transition: width 200ms ease-in-out, border-color 200ms ease-in-out;
 }
-.bottoneAdotta:hover {
+.adoptButton:hover {
     color: var(--custom-text-light-color);
     border-color: var(--custom-background-color);
     background-color: var(--custom-cta-color);
@@ -341,6 +341,12 @@ footer img{
     width: 6.5vw;
     height: 6.5vw;
     transition: width 200ms ease-in-out, height 200ms ease-in-out;
+}
+.carousel-prev-icon:hover{
+    content: url("/img/frecciaSxHover.svg");
+}
+.carousel-next-icon:hover{
+    content: url("/img/frecciaDxHover.svg");
 }
 .communityRow img{
     margin: -5% auto auto auto;
