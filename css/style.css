@@ -419,6 +419,14 @@ footer img{
     margin-top: -3px;
 }
 
+.leafButtonDark:hover img{
+    content: url("/img/darkLeaf.svg");
+}
+
+
+
+
+
 
 .articleHeader{
     position: relative;
