@@ -45,6 +45,9 @@ body{
 
 
 
+
+
+
 /* NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR*/
 .navbar a{
     color: var(--custom-text-dark-color);
@@ -173,6 +176,8 @@ body{
 
 
 
+
+
 /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER*/
 footer{
     background-color: var(--custom-footer-color);
@@ -207,11 +212,15 @@ footer img{
 
 
 
+
+
 /* HOME HOME HOME HOME HOME HOME HOME HOME HOME*/
 .divHome h1{
     font-size: clamp(25px, 5vw,  72px);
 }
 /* FINE HOME FINE HOME FINE HOME FINE HOME FINE HOME FINE HOME FINE HOME */
+
+
 
 
 
@@ -255,6 +264,8 @@ footer img{
 }
 
 /* FINE MISSION FINE MISSION FINE MISSION FINE MISSION FINE MISSION FINE MISSION FINE MISSION */
+
+
 
 
 
@@ -362,6 +373,9 @@ footer img{
     font-weight: 400;
 }
 /* FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA*/
+
+
+
 
 
 /* LASCIARE ALLA FINE --- LASCIARE ALLA FINE --- LASCIARE ALLA FINE*/
