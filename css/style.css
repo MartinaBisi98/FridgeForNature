@@ -169,8 +169,6 @@ a {
 
 
 
-/* ABOUT US */
-
 
 /* BOOOOOOOOOOOOOOTTONEEEEEEEEEEE */
 .lightButton, .darkButton{
@@ -271,6 +269,10 @@ form {
         width: 75vw;
 
     }
+}
+
+.leafButtonDark:hover img{
+    content: url("/img/darkLeaf.svg");
 }
 /* fine form */
 
