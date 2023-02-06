@@ -503,6 +503,9 @@ article a:hover{
     z-index: -1;
     margin-top: -6.5%;
 }
+.decorativeRootsBlog{
+    margin-top: -4.5% !important;
+}
 .darkDiv{
     background-color: var(--custom-decorative-green-color);
     color: var(--custom-text-light-color);
