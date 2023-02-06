@@ -241,7 +241,6 @@ form {
     border-color: RGBA(129,194,149,.35);
 }
 
-
 @media only screen and (max-width: 992px) {
     .formpiccoli {
         width: 75vw;
@@ -257,7 +256,6 @@ form {
         border-radius: 15px;
         border-color: RGBA(129,194,149,.35);
     }
-
     .contenitoriscelteform {
         width: 75vw;
 
