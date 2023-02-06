@@ -342,7 +342,6 @@ footer img{
 }
 
 .references a{
-    color: var(--custom-text-dark-color);
     text-decoration: none;
 }
 .references a:hover{
@@ -355,6 +354,13 @@ footer img{
 .treeImg {
     width: 10vw;
     height: 10vh;
+}
+
+article a{
+    color: var(--custom-text-dark-color);
+}
+article a:hover{
+    color: var(--custom-decorative-green-color);
 }
 /* FINE ARTICOLO  FINE ARTICOLO FINE ARTICOLO FINE ARTICOLO FINE ARTICOLO FINE ARTICOLO FINE ARTICOLO */
 
