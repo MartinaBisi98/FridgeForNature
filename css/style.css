@@ -114,13 +114,6 @@ a {
 
 /*CARD*/
 
-.corpocard {
-    background-color: var(--custom-background-color);
-    text-align: left;
-}
-.corpocardark {
-    background-color: var(--custom-decorative-green-color);
-}
 .imgcard{
     object-fit: cover;
     width: 18vw;
