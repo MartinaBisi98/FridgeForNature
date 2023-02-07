@@ -503,9 +503,6 @@ article a:hover{
     z-index: -1;
     margin-top: -6.5%;
 }
-.decorativeRootsBlog{
-    margin-top: -4.5% !important;
-}
 .darkDiv{
     background-color: var(--custom-decorative-green-color);
     color: var(--custom-text-light-color);
@@ -584,16 +581,12 @@ article a:hover{
 .borderimgcardwidth, .imgcard{
     width: 18vw;
 }
-.imgcard{
+.imgcard, .imgcardmobile{
     object-fit: cover;
     aspect-ratio: 1 / 1;
 }
 .borderimgcardwidthmobile, .imgcardmobile{
     width: 45vw;
-}
-.imgcardmobile {
-    object-fit: cover;
-    aspect-ratio: 1 / 1;
 }
 
 /*
@@ -685,6 +678,7 @@ form {
 
     }
 }
+
 /* fine form */
 /* Sezione social*/
 .aboutUsIcon {
