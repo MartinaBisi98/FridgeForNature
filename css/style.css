@@ -30,8 +30,8 @@ h3{
     font-size: clamp(21px, 2.5vw,  36px);
 }
 h4{
-    font-weight: 600;
-    font-size: clamp(16px, 3vw,  28px);
+    font-weight: 600!important;
+    font-size: clamp(16px, 3vw,  28px)!important;
 }
 body{
     background-color: var(--custom-background-color);
