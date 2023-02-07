@@ -43,11 +43,6 @@ body{
 }
 
 
-
-
-
-
-
 /* NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR*/
 .navbar a{
     color: var(--custom-text-dark-color);
@@ -262,11 +257,9 @@ footer img{
 #missionThirdNumber{
     color: var(--custom-decorative-light-green-color);
 }
-
 .imgAgenda2030Mobile{
     padding-right: 5%;
 }
-
 /* FINE MISSION FINE MISSION FINE MISSION FINE MISSION FINE MISSION FINE MISSION FINE MISSION */
 
 
@@ -446,22 +439,6 @@ article a:hover{
 
 }
 
-.carousel-prev-icon, .carousel-next-icon {
-    width: 6vw;
-    height: 6vw;
-    transition: width 200ms ease-in-out, height 200ms ease-in-out;
-}
-.carousel-prev-icon:hover, .carousel-next-icon:hover{
-    width: 6.5vw;
-    height: 6.5vw;
-    transition: width 200ms ease-in-out, height 200ms ease-in-out;
-}
-.carousel-prev-icon:hover{
-    content: url("../img/frecciaSxHover.svg");
-}
-.carousel-next-icon:hover{
-    content: url("../img/frecciaDxHover.svg");
-}
 .communityRow img{
     margin: -5% auto auto auto;
     display: block;
@@ -476,6 +453,66 @@ article a:hover{
     font-weight: 400;
 }
 /* FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA FINE ADOTTA*/
+
+
+
+
+
+/* ABOUS US ABOUS US ABOUS US ABOUS US ABOUS US ABOUS US ABOUS US*/
+/*  form */
+form {
+    color:var(--custom-text-dark-color) !important;
+}
+.formTinyElements {
+    width: 25vw;
+    margin:auto;
+    display:block;
+    border-radius: 15px;
+}
+.formCSSBackground {
+    background-color: #81C295;
+    opacity: 35%;
+}
+.formChoiceDiv {
+    width: 9vw;
+    text-align: center;
+}
+.radioButtonColor {
+    border-color: var(--custom-decorative-green-color);
+    border-width: 2px;
+    background-color: var(--custom-background-color);
+}
+.formMessageDiv {
+    width: 60vw;
+    height: 32vh;
+    background-color: RGBA(129,194,149, .35);
+    border-radius: 15px;
+    border-color: RGBA(129,194,149,.35);
+}
+@media only screen and (max-width: 992px) {
+    .formTinyElements {
+        width: 75vw;
+        border-radius: 30px;
+    }
+    .formMessageDiv {
+        width: 75vw;
+        height: 32vh;
+        margin:auto;
+        display:block;
+        background-color: RGBA(129,194,149, .35);
+        border-radius: 15px;
+        border-color: RGBA(129,194,149,.35);
+    }
+    .formChoiceDiv {
+        width: 75vw;
+
+    }
+}
+/* SOCIAL*/
+.aboutUsIcon {
+    width: clamp(30px, 5vw,  90px);
+}
+/* FINE ABOUS US FINE ABOUS US FINE ABOUS US FINE ABOUS US FINE ABOUS US FINE ABOUS US*/
 
 
 
@@ -558,132 +595,57 @@ article a:hover{
     content: url("../img/lightLeaf.svg");
 }
 
-
-
-
-
-
-
-
-
-
-
-/* RICONTROLLARE CARD --- RICONTROLLARE CARD --- RICONTROLLARE CARD*/
-/* QUESTE FUNZIONANO IN HOME AL MOMENTO*/
-
-.corpocard {
-    background-color: var(--custom-background-color);
-    text-align: left;
+.carousel-prev-icon, .carousel-next-icon {
+    width: 6vw;
+    height: 6vw;
+    transition: width 200ms ease-in-out, height 200ms ease-in-out;
 }
-.corpocardark {
-    background-color: var(--custom-decorative-green-color);
+.carousel-prev-icon:hover, .carousel-next-icon:hover{
+    width: 6.5vw;
+    height: 6.5vw;
+    transition: width 200ms ease-in-out, height 200ms ease-in-out;
 }
-.borderimgcardwidth, .imgcard{
+.carousel-prev-icon:hover{
+    content: url("../img/frecciaSxHover.svg");
+}
+.carousel-next-icon:hover{
+    content: url("../img/frecciaDxHover.svg");
+}
+
+
+
+/* CARD CARD CARD CARD CARD CARD CARD CARD CARD CARD CARD*/
+.cardImgBorderWidth, .cardImg{
     width: 18vw;
 }
-.imgcard, .imgcardmobile{
+.cardImg, .cardImgMobile{
     object-fit: cover;
     aspect-ratio: 1 / 1;
 }
-.borderimgcardwidthmobile, .imgcardmobile{
+.cardImgBorderWidthMobile, .cardImgMobile{
     width: 45vw;
 }
-
-/*
-.imgcardmobile:hover {
-    border: 4px solid;
-    border-color: var(--custom-decorative-orange-color);
-}*/
-
 .card a{
     text-decoration: none;
 }
-.borderimgcarddark a{
+.cardImgDarkBorder a{
     color: var(--custom-text-light-color);
 }
-.borderimgcard a{
+.cardImgBorder a{
     color: var(--custom-text-dark-color);
 }
 .card a:hover img{
     border: 4px solid;
     border-color: var(--custom-decorative-orange-color);
 }
-
-.borderimgcard {
+.cardImgBorder {
     background-color: var(--custom-background-color);
 }
-.borderimgcarddark {
+.cardImgDarkBorder {
     background-color: var(--custom-decorative-green-color);
 }
-/*
-.imgcard:hover {
-    border: 4px solid;
-    border-color: var(--custom-decorative-orange-color);
-}*/
+/* FINE CARD FINE CARD FINE CARD FINE CARD FINE CARD FINE CARD FINE CARD*/
 
 
 
-/* ABOUS US ABOUS US ABOUS US ABOUS US ABOUS US ABOUS US ABOUS US*/
-/*  form */
-form {
-    color:var(--custom-text-dark-color) !important;
-}
-.formpiccoli {
-    width: 25vw;
-    margin:auto;
-    display:block;
-    border-radius: 15px;
-}
-
-.riempimento {
-    background-color: #81C295;
-    opacity: 35%;
-}
-
-.contenitoriscelteform {
-    width: 9vw;
-    text-align: center;
-}
-
-.colorecheck {
-    border-color: var(--custom-decorative-green-color);
-    border-width: 2px;
-    background-color: var(--custom-background-color);
-}
-
-.formmess {
-    width: 60vw;
-    height: 32vh;
-    background-color: RGBA(129,194,149, .35);
-    border-radius: 15px;
-    border-color: RGBA(129,194,149,.35);
-}
-
-@media only screen and (max-width: 992px) {
-    .formpiccoli {
-        width: 75vw;
-        border-radius: 30px;
-    }
-    .formmess {
-        width: 75vw;
-        height: 32vh;
-        margin:auto;
-        display:block;
-        background-color: RGBA(129,194,149, .35);
-        border-radius: 15px;
-        border-color: RGBA(129,194,149,.35);
-    }
-    .contenitoriscelteform {
-        width: 75vw;
-
-    }
-}
-
-/* fine form */
-/* Sezione social*/
-.aboutUsIcon {
-    width: clamp(30px, 5vw,  90px);
-}
-/* FINE sezione social*/
-/* FINE ABOUS US FINE ABOUS US FINE ABOUS US FINE ABOUS US FINE ABOUS US FINE ABOUS US*/
 
