@@ -141,7 +141,7 @@ body{
         width: 35%;
     }
     #userIcon{
-        content: url("/./img/navbar/userIconLight.svg");
+        content: url("../img/navbar/userIconLight.svg");
         width: 25px;
         height: 25px;
         margin-bottom: 5%;
@@ -457,10 +457,10 @@ article a:hover{
     transition: width 200ms ease-in-out, height 200ms ease-in-out;
 }
 .carousel-prev-icon:hover{
-    content: url("/./img/frecciaSxHover.svg");
+    content: url("../img/frecciaSxHover.svg");
 }
 .carousel-next-icon:hover{
-    content: url("/./img/frecciaDxHover.svg");
+    content: url("../img/frecciaDxHover.svg");
 }
 .communityRow img{
     margin: -5% auto auto auto;
@@ -552,10 +552,10 @@ article a:hover{
 }
 
 .leafButtonDark:hover img{
-    content: url("/./img/darkLeaf.svg");
+    content: url("../img/darkLeaf.svg");
 }
 .leafButtonLight:hover img{
-    content: url("/./img/lightLeaf.svg");
+    content: url("../img/lightLeaf.svg");
 }
 
 
