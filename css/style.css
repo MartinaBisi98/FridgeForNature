@@ -176,13 +176,15 @@ body{
     height: 60px;
 }
 .logoNavBar2023Img {
-    width: 28px;
-    height: 60px;
+    width: 23px;
+    height: 50px;
 }
 .logoNavBar2023Text {
     width: 85px;
     height: 36px;
+    margin: 0 !important;
 }
+
 /* FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR */
 
 
