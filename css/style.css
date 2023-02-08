@@ -108,6 +108,9 @@ body{
         margin-right: 10px;
         margin-left: 2px;
     }
+    .navbarMiddleTitle{
+        display: none;
+    }
 }
 @media only screen and (max-width: 991px) {
     .menuMiddleComponent a:hover:not(.active) {
