@@ -387,7 +387,7 @@ article a{
 article a:hover{
     color: var(--custom-decorative-green-color);
 }
-.recipeList {
+.noSymbolList {
     list-style: none;
     padding-left: 0;
 }
