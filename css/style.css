@@ -85,7 +85,7 @@ body{
     font-size: 24px;
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(249,255,248, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 992px) {
     .menuMiddleComponent a{
         border: solid 2px;
         border-radius: 30px;
@@ -108,7 +108,7 @@ body{
         margin-right: 10px;
         margin-left: 2px;
     }
-    .navbarMiddleTitle{
+    .navbarMobileBrand{
         display: none;
     }
 }
@@ -116,6 +116,9 @@ body{
     .menuMiddleComponent a:hover:not(.active) {
         text-decoration: underline;
         transition: text-decoration 1s ease;;
+    }
+    .navbarDesktopBrand{
+        display: none;
     }
     .menuMiddleComponent a:hover:not(.active) img{
         transition: width 500ms ease-in-out, margin-right 500ms ease-in-out;
@@ -167,6 +170,18 @@ body{
 .logoNavBar {
     width: 54px;
     height: 54px;
+}
+.logoNavBar2023 {
+    width: 120px;
+    height: 60px;
+}
+.logoNavBar2023Img {
+    width: 28px;
+    height: 60px;
+}
+.logoNavBar2023Text {
+    width: 85px;
+    height: 36px;
 }
 /* FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR FINE NAVBAR */
 
