@@ -554,21 +554,23 @@ form {
 
 
 /* LASCIARE ALLA FINE --- LASCIARE ALLA FINE --- LASCIARE ALLA FINE*/
-.decorativeGrass, .decorativeGrassv2{
+/*.decorativeGrass, .decorativeGrassv2{
     width: 100%;
     position: absolute;
+    margin-top: -7.7%;
 }
 @media only screen and (max-width: 500px) {
     .decorativeGrass, .decorativeGrassv2{
         margin-top: -7.5% !important;
     }
+} */
+
+.decorativeGrassSVG, .decorativeGrassv2SVG{
+    margin-top: -5.5%;
+    width: 100%;
+    position: absolute;
 }
-.decorativeGrass{
-    margin-top: -7.7%;
-}
-.decorativeGrassv2 {
-    margin-top: -7.7%;
-}
+
 .decorativeRoots{
     width: 100%;
     position: absolute;
@@ -680,7 +682,6 @@ form {
     background-color: var(--custom-decorative-green-color);
 }
 /* FINE CARD FINE CARD FINE CARD FINE CARD FINE CARD FINE CARD FINE CARD*/
-
 
 
 
