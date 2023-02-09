@@ -50,7 +50,7 @@ body{
 
 /* NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR*/
 .navbar a{
-    color: var(--custom-text-dark-color);
+    color: var(--custom-decorative-green-color);
     font-weight: bold;
     overflow:hidden;
 }
