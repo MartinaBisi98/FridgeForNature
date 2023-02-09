@@ -510,8 +510,9 @@ form {
     border-radius: 15px;
 }
 .formCSSBackground {
-    background-color: #81C295;
-    opacity: 35%;
+    background-color: RGBA(129,194,149, .35);
+    border-radius: 15px;
+    border-color: RGBA(129,194,149,.35);
 }
 .formChoiceDiv {
     width: 9vw;
@@ -525,7 +526,7 @@ form {
 .formMessageDiv {
     width: 60vw;
     height: 32vh;
-    background-color: RGBA(129,194,149, .35);
+    background-color: RGBA(129,194,149, .25);
     border-radius: 15px;
     border-color: RGBA(129,194,149,.35);
 }
